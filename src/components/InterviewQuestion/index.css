@@ -1,0 +1,91 @@
+/* Write you CSS here */
+.interview-question-main-container {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 5px 2px rgba(2, 2, 2, 0.1);
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .interview-question-main-container {
+    width: 80%;
+  }
+}
+
+.interview-question-category-container {
+  display: flex;
+}
+
+.interview-question-category {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.interview-question-category-easy {
+  background-color: #16a34a16;
+  color: #16a34a;
+}
+
+.interview-question-category-medium {
+  background-color: #d9770616;
+  color: #d97706;
+}
+
+.interview-question-category-hard {
+  background-color: #dc262616;
+  color: #dc2626;
+}
+
+.interview-question-category-html {
+  background-color: #0284c716;
+  color: #0284c7;
+}
+
+.interview-question-category-css {
+  background-color: #9333ea16;
+  color: #9333ea;
+}
+
+.interview-question-category-javascript {
+  background-color: #db277716;
+  color: #db2777;
+}
+
+.interview-question-text {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.interview-question-show-hide-button {
+  background-color: transparent;
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: 2px solid #cbd2d9;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.interview-question-button-arrow-image {
+  margin-left: 10px;
+}
+
+.interview-answer-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
